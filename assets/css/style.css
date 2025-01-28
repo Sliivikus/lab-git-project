@@ -1,0 +1,167 @@
+* {
+    font-family: "Golos Text", system-ui;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    min-width: 1400px;
+    padding: 42px 52px;
+}
+
+.header-logo a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-list, .header-list__item{
+    list-style: none;
+    display: inline-block;
+}
+
+.header-list__item a {
+    text-decoration: none;
+}
+
+.header-list__item:not(:last-child){
+    margin-right: 18px;
+}
+
+
+/* Intro */
+
+
+.intro {
+    background: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 270px 0 205px 138px;
+}
+
+.intro span {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.84px;
+}
+
+.intro h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 81.36px;
+}
+
+.intro p {
+    font-size: 20px;
+    margin-bottom: 46px;
+}
+
+.intro button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #25252C;
+    padding: 24px 48px;
+    border-radius: 55px;
+    border: none;
+    gap: 10px;
+}
+
+.button-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.intro button a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* About the company */
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    background-color: #1E262F;
+    padding-left: 137px;
+}
+
+.info-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 342px 122px 343px 67px;
+    border-left: 1px solid #2E363F;
+    border-right: 1px solid #2E363F;
+    gap: 16px;
+}
+
+.info-list a {
+    text-decoration: none;
+}
+
+.info-content {
+    display: flex;
+    border-right: 1px solid #2E363F;
+    padding: 174px 33px 174px 36px;
+}
+
+.info-list li:nth-child(1) a {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.info-list li:nth-child(2) a {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    opacity: .25;
+}
+
+.info-list li:nth-child(3) a {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    opacity: .25;
+}
+
+.info-title {
+    margin-top: 57px;
+    margin-left: 36px;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-size: 56px;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.info-video img {
+    width: 376px;
+    height: 212px;
+    border-radius: 12px;
+}
+
+.info-video {
+    align-self: flex-end;
+}
+
+.info-text p{
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    width: 455px;
+}
